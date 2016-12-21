@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4A899A1E09FAA4000BA620 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A89991E09FAA4000BA620 /* GoogleService-Info.plist */; };
 		0D7021E61E08E2BA00E46081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7021E51E08E2BA00E46081 /* AppDelegate.swift */; };
 		0D7021E81E08E2BA00E46081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7021E71E08E2BA00E46081 /* ViewController.swift */; };
 		0D7021EB1E08E2BA00E46081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7021E91E08E2BA00E46081 /* Main.storyboard */; };
@@ -24,9 +25,11 @@
 		0D70220E1E08F01F00E46081 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7022021E08F01F00E46081 /* SourceSansPro-Regular.ttf */; };
 		0D70220F1E08F01F00E46081 /* SourceSansPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7022031E08F01F00E46081 /* SourceSansPro-Semibold.ttf */; };
 		0D7022101E08F01F00E46081 /* SourceSansPro-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7022041E08F01F00E46081 /* SourceSansPro-SemiboldItalic.ttf */; };
+		2EB097EE242183971357D9CB /* Pods_down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937BF9CF5B986AAB39E64DA5 /* Pods_down.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4A89991E09FAA4000BA620 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D7021E21E08E2BA00E46081 /* down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = down.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7021E51E08E2BA00E46081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D7021E71E08E2BA00E46081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		0D7022021E08F01F00E46081 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
 		0D7022031E08F01F00E46081 /* SourceSansPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.ttf"; sourceTree = "<group>"; };
 		0D7022041E08F01F00E46081 /* SourceSansPro-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		14F72BBD6CAC7EF1C91E1E92 /* Pods-down.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-down.release.xcconfig"; path = "Pods/Target Support Files/Pods-down/Pods-down.release.xcconfig"; sourceTree = "<group>"; };
+		937BF9CF5B986AAB39E64DA5 /* Pods_down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3424E7D8435E3A056593F79 /* Pods-down.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-down.debug.xcconfig"; path = "Pods/Target Support Files/Pods-down/Pods-down.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB097EE242183971357D9CB /* Pods_down.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 				0D7022111E08F02600E46081 /* Resources */,
 				0D7021E41E08E2BA00E46081 /* down */,
 				0D7021E31E08E2BA00E46081 /* Products */,
+				FD44C7C99DD80D8E42B6031A /* Pods */,
+				933F8C75DDAB9205275FFE3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +94,7 @@
 				0D7021EC1E08E2BA00E46081 /* Assets.xcassets */,
 				0D7021EE1E08E2BA00E46081 /* LaunchScreen.storyboard */,
 				0D7021F11E08E2BA00E46081 /* Info.plist */,
+				0D4A89991E09FAA4000BA620 /* GoogleService-Info.plist */,
 			);
 			path = down;
 			sourceTree = "<group>";
@@ -108,6 +118,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		933F8C75DDAB9205275FFE3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937BF9CF5B986AAB39E64DA5 /* Pods_down.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD44C7C99DD80D8E42B6031A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3424E7D8435E3A056593F79 /* Pods-down.debug.xcconfig */,
+				14F72BBD6CAC7EF1C91E1E92 /* Pods-down.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D7021F41E08E2BA00E46081 /* Build configuration list for PBXNativeTarget "down" */;
 			buildPhases = (
+				21A9FD6E8F8452A0E09CD80E /* [CP] Check Pods Manifest.lock */,
 				0D7021DE1E08E2B900E46081 /* Sources */,
 				0D7021DF1E08E2B900E46081 /* Frameworks */,
 				0D7021E01E08E2B900E46081 /* Resources */,
+				E044D687CB706C680F8190FD /* [CP] Embed Pods Frameworks */,
+				2B70A5720F13621906825F81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,10 +212,59 @@
 				0D7022071E08F01F00E46081 /* SourceSansPro-Bold.ttf in Resources */,
 				0D70220A1E08F01F00E46081 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
 				0D70220D1E08F01F00E46081 /* SourceSansPro-LightItalic.ttf in Resources */,
+				0D4A899A1E09FAA4000BA620 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A9FD6E8F8452A0E09CD80E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B70A5720F13621906825F81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-down/Pods-down-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E044D687CB706C680F8190FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-down/Pods-down-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D7021DE1E08E2B900E46081 /* Sources */ = {
@@ -314,6 +393,7 @@
 		};
 		0D7021F51E08E2BA00E46081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3424E7D8435E3A056593F79 /* Pods-down.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = down/Info.plist;
@@ -326,6 +406,7 @@
 		};
 		0D7021F61E08E2BA00E46081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F72BBD6CAC7EF1C91E1E92 /* Pods-down.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = down/Info.plist;
@@ -355,6 +436,7 @@
 				0D7021F61E08E2BA00E46081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
